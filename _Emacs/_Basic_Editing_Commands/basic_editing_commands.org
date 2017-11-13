@@ -61,6 +61,11 @@
  M-x hl-line-mode  Enable or disable highlighting of the current line.
  M-x size-indication-mode  Toggle automatic display of the size of the buffer.
 
+*  Numeric Arguments
+ ...
+*  Repeating a Command
+ ...
+
 
 
 
