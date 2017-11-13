@@ -29,3 +29,10 @@
             Column 0 is the leftmost column.
  C-x C-n  ?
  C-u C-x C-n ?
+
+*  Erasing Text
+ <delete>
+ C-d  Delete the character after point(delete-char).
+ C-k  Kill to the end of line(kill-line).
+ M-d  Kill forward to the end of the next word(kill-word).
+ M-<DEL>  Kill back to the beginning of the previous word(backward-kill-word)
