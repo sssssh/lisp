@@ -42,3 +42,6 @@
 *  Files
  C-x C-f  find-file
  C-x C-s  save-buffer
+*  Help
+ C-h k  describe-key
+ C-h k C-n  tells you what C-n does.
