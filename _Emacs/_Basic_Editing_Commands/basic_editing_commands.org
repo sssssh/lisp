@@ -45,3 +45,15 @@
 *  Help
  C-h k  describe-key
  C-h k C-n  tells you what C-n does.
+*  Black Lines
+ C-o  Insert a blank line after the cursor(open-line)
+ C-x C-o  Delete all but one of many consecutive blank lines(delete-blank-lines)
+ 
+
+
+
+
+
+
+
+
