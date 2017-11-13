@@ -48,7 +48,18 @@
 *  Black Lines
  C-o  Insert a blank line after the cursor(open-line)
  C-x C-o  Delete all but one of many consecutive blank lines(delete-blank-lines)
- 
+*  Continuation Lines
+ ...
+*  Cursor Position 
+ M-x what-line  Display the line number of point
+ M-x line-number-mode
+ M-x column-number-mode  toggle automatic display of the current line number or column number.
+ M-=  count-words-region
+ M-x count-words  Display the number of lines, words, and character that are present in the buffer.
+ C-x =  Display the character code of character after point, character position of point, and column of point.
+        (what-cursor-position)
+ M-x hl-line-mode  Enable or disable highlighting of the current line.
+ M-x size-indication-mode  Toggle automatic display of the size of the buffer.
 
 
 
