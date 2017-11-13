@@ -1,0 +1,31 @@
+*  Inserting Text
+ ...
+*  Changing the Location of Point
+ C-f  Move forward one character(forward-char).
+ C-b  Move backward one character(backward-char).
+ C-n  Move down one screen line(next-line).
+      keep the horizontal position unchanged...
+ C-p  Move up one screen line(previous-line).
+ C-a  Move to the beginning of the line(move-beginning-of-line).
+ C-e  Move to the end of the line(move-end-of-line). 
+ 
+ M-f  Move forward one word(forward-word).
+ M-<RIGHT>  like M-f
+ M-b  Move backward one word(backward-word).
+ C-<LEFT>   like M-b
+ 
+ M-r  (move-to-window-line-top-bottom)
+ M-<  Move to the top of the buffer(beginning-of-buffer).
+ M->  Move to the end of the buffer(end-of-buffer).
+
+ C-v  scroll-screen-down
+ M-v  scroll-screen-up
+
+ M-g c  Read a number n and move point to buffer position n.
+        Position 1 is the beginning of the buffer.
+ M-g M-g  Go to nth. line.
+ M-g g  Go to nth. line.
+ M-g <TAB>  Read a number n and move to column n in the current line.
+            Column 0 is the leftmost column.
+ C-x C-n  ?
+ C-u C-x C-n ?
