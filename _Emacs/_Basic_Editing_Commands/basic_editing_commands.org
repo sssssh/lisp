@@ -36,3 +36,6 @@
  C-k  Kill to the end of line(kill-line).
  M-d  Kill forward to the end of the next word(kill-word).
  M-<DEL>  Kill back to the beginning of the previous word(backward-kill-word)
+*  Undoing Changes
+ C-x u
+ C-_
