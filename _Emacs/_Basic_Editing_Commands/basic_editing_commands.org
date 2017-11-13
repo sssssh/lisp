@@ -39,3 +39,6 @@
 *  Undoing Changes
  C-x u
  C-_
+*  Files
+ C-x C-f  find-file
+ C-x C-s  save-buffer
