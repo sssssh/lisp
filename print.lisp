@@ -17,3 +17,6 @@
 
 (format t "The answer is ~a." (* 2 3))
 (format nil "The answer is ~a." (* 2 3))
+
+
+(del )
